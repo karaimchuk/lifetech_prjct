@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BADA8D025C57FA600EBB15B /* ChosenProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADA8CF25C57FA600EBB15B /* ChosenProductViewController.swift */; };
+		3BADA8E225C71EA100EBB15B /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADA8E125C71EA100EBB15B /* ProductListViewModel.swift */; };
+		3BADA8E625C7257600EBB15B /* ChosenProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADA8E525C7257600EBB15B /* ChosenProductViewModel.swift */; };
+		3BADA8EE25C735A900EBB15B /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BADA8ED25C735A900EBB15B /* ProductDetail.swift */; };
 		3BC10EE525C33112004F3A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC10EE425C33112004F3A61 /* AppDelegate.swift */; };
 		3BC10EE725C33112004F3A61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC10EE625C33112004F3A61 /* SceneDelegate.swift */; };
-		3BC10EE925C33112004F3A61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC10EE825C33112004F3A61 /* ViewController.swift */; };
 		3BC10EEC25C33112004F3A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC10EEA25C33112004F3A61 /* Main.storyboard */; };
 		3BC10EEE25C33115004F3A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC10EED25C33115004F3A61 /* Assets.xcassets */; };
 		3BC10EF125C33115004F3A61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC10EEF25C33115004F3A61 /* LaunchScreen.storyboard */; };
+		3BC10EFE25C336B4004F3A61 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC10EFD25C336B4004F3A61 /* ProductListViewController.swift */; };
+		3BC10F0325C33898004F3A61 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC10F0125C33898004F3A61 /* ProductCollectionViewCell.swift */; };
+		3BC10F0425C33898004F3A61 /* ProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BC10F0225C33898004F3A61 /* ProductCollectionViewCell.xib */; };
+		3BC10F0B25C349B3004F3A61 /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC10F0925C349B3004F3A61 /* ProductList.swift */; };
+		3BC10F0C25C349B3004F3A61 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC10F0A25C349B3004F3A61 /* Product.swift */; };
+		3BC10F1025C35092004F3A61 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC10F0F25C35092004F3A61 /* APIManager.swift */; };
+		FD6DBC0F8DCFAA139B708F36 /* Pods_lifetech_prjct.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1196994A74CB959870A9CC6A /* Pods_lifetech_prjct.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1196994A74CB959870A9CC6A /* Pods_lifetech_prjct.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lifetech_prjct.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CF861DC8AE8B498B1502DC /* Pods-lifetech_prjct.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifetech_prjct.release.xcconfig"; path = "Target Support Files/Pods-lifetech_prjct/Pods-lifetech_prjct.release.xcconfig"; sourceTree = "<group>"; };
+		3BADA8CF25C57FA600EBB15B /* ChosenProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenProductViewController.swift; sourceTree = "<group>"; };
+		3BADA8E125C71EA100EBB15B /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		3BADA8E525C7257600EBB15B /* ChosenProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenProductViewModel.swift; sourceTree = "<group>"; };
+		3BADA8ED25C735A900EBB15B /* ProductDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
 		3BC10EE125C33112004F3A61 /* lifetech_prjct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifetech_prjct.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC10EE425C33112004F3A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BC10EE625C33112004F3A61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BC10EE825C33112004F3A61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BC10EEB25C33112004F3A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BC10EED25C33115004F3A61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC10EF025C33115004F3A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BC10EF225C33115004F3A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC10EFD25C336B4004F3A61 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		3BC10F0125C33898004F3A61 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		3BC10F0225C33898004F3A61 /* ProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		3BC10F0925C349B3004F3A61 /* ProductList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		3BC10F0A25C349B3004F3A61 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		3BC10F0F25C35092004F3A61 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		8B45B133DC6D8B6A7B2024EE /* Pods-lifetech_prjct.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lifetech_prjct.debug.xcconfig"; path = "Target Support Files/Pods-lifetech_prjct/Pods-lifetech_prjct.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6DBC0F8DCFAA139B708F36 /* Pods_lifetech_prjct.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BADA8DD25C71E0200EBB15B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3BADA8E025C71E7800EBB15B /* ChosenProductViewController */,
+				3BADA8DF25C71E6400EBB15B /* ProductListViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3BADA8DF25C71E6400EBB15B /* ProductListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BC10F0025C3381C004F3A61 /* Cells */,
+				3BC10EFD25C336B4004F3A61 /* ProductListViewController.swift */,
+				3BADA8E125C71EA100EBB15B /* ProductListViewModel.swift */,
+			);
+			path = ProductListViewController;
+			sourceTree = "<group>";
+		};
+		3BADA8E025C71E7800EBB15B /* ChosenProductViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BADA8CF25C57FA600EBB15B /* ChosenProductViewController.swift */,
+				3BADA8E525C7257600EBB15B /* ChosenProductViewModel.swift */,
+			);
+			path = ChosenProductViewController;
+			sourceTree = "<group>";
+		};
+		3BADA8F025C7364900EBB15B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3BC10EED25C33115004F3A61 /* Assets.xcassets */,
+				3BC10EE625C33112004F3A61 /* SceneDelegate.swift */,
+				3BC10EE425C33112004F3A61 /* AppDelegate.swift */,
+				3BC10EF225C33115004F3A61 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		3BADA8F225C736EE00EBB15B /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				3BC10EEA25C33112004F3A61 /* Main.storyboard */,
+				3BC10EEF25C33115004F3A61 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		3BC10ED825C33112004F3A61 = {
 			isa = PBXGroup;
 			children = (
 				3BC10EE325C33112004F3A61 /* lifetech_prjct */,
 				3BC10EE225C33112004F3A61 /* Products */,
+				876856AAB215F01ACC008365 /* Pods */,
+				FD4D2D6D38F688346EB5F17C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +129,49 @@
 		3BC10EE325C33112004F3A61 /* lifetech_prjct */ = {
 			isa = PBXGroup;
 			children = (
-				3BC10EE425C33112004F3A61 /* AppDelegate.swift */,
-				3BC10EE625C33112004F3A61 /* SceneDelegate.swift */,
-				3BC10EE825C33112004F3A61 /* ViewController.swift */,
-				3BC10EEA25C33112004F3A61 /* Main.storyboard */,
-				3BC10EED25C33115004F3A61 /* Assets.xcassets */,
-				3BC10EEF25C33115004F3A61 /* LaunchScreen.storyboard */,
-				3BC10EF225C33115004F3A61 /* Info.plist */,
+				3BC10F0F25C35092004F3A61 /* APIManager.swift */,
+				3BADA8F225C736EE00EBB15B /* StoryBoards */,
+				3BADA8F025C7364900EBB15B /* SupportingFiles */,
+				3BADA8DD25C71E0200EBB15B /* ViewControllers */,
+				3BC10F0825C349B3004F3A61 /* Model */,
 			);
 			path = lifetech_prjct;
+			sourceTree = "<group>";
+		};
+		3BC10F0025C3381C004F3A61 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3BC10F0125C33898004F3A61 /* ProductCollectionViewCell.swift */,
+				3BC10F0225C33898004F3A61 /* ProductCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3BC10F0825C349B3004F3A61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC10F0925C349B3004F3A61 /* ProductList.swift */,
+				3BC10F0A25C349B3004F3A61 /* Product.swift */,
+				3BADA8ED25C735A900EBB15B /* ProductDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		876856AAB215F01ACC008365 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B45B133DC6D8B6A7B2024EE /* Pods-lifetech_prjct.debug.xcconfig */,
+				39CF861DC8AE8B498B1502DC /* Pods-lifetech_prjct.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD4D2D6D38F688346EB5F17C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1196994A74CB959870A9CC6A /* Pods_lifetech_prjct.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BC10EF525C33115004F3A61 /* Build configuration list for PBXNativeTarget "lifetech_prjct" */;
 			buildPhases = (
+				5AEF606B5B33E7C68C2B5211 /* [CP] Check Pods Manifest.lock */,
 				3BC10EDD25C33112004F3A61 /* Sources */,
 				3BC10EDE25C33112004F3A61 /* Frameworks */,
 				3BC10EDF25C33112004F3A61 /* Resources */,
+				2B78542F859A814D712F23AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BC10EF125C33115004F3A61 /* LaunchScreen.storyboard in Resources */,
+				3BC10F0425C33898004F3A61 /* ProductCollectionViewCell.xib in Resources */,
 				3BC10EEE25C33115004F3A61 /* Assets.xcassets in Resources */,
 				3BC10EEC25C33112004F3A61 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +242,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B78542F859A814D712F23AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lifetech_prjct/Pods-lifetech_prjct-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lifetech_prjct/Pods-lifetech_prjct-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lifetech_prjct/Pods-lifetech_prjct-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AEF606B5B33E7C68C2B5211 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lifetech_prjct-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BC10EDD25C33112004F3A61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC10EE925C33112004F3A61 /* ViewController.swift in Sources */,
 				3BC10EE525C33112004F3A61 /* AppDelegate.swift in Sources */,
+				3BC10F0325C33898004F3A61 /* ProductCollectionViewCell.swift in Sources */,
 				3BC10EE725C33112004F3A61 /* SceneDelegate.swift in Sources */,
+				3BC10F0C25C349B3004F3A61 /* Product.swift in Sources */,
+				3BC10F0B25C349B3004F3A61 /* ProductList.swift in Sources */,
+				3BADA8E225C71EA100EBB15B /* ProductListViewModel.swift in Sources */,
+				3BC10EFE25C336B4004F3A61 /* ProductListViewController.swift in Sources */,
+				3BC10F1025C35092004F3A61 /* APIManager.swift in Sources */,
+				3BADA8E625C7257600EBB15B /* ChosenProductViewModel.swift in Sources */,
+				3BADA8EE25C735A900EBB15B /* ProductDetail.swift in Sources */,
+				3BADA8D025C57FA600EBB15B /* ChosenProductViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +443,12 @@
 		};
 		3BC10EF625C33115004F3A61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B45B133DC6D8B6A7B2024EE /* Pods-lifetech_prjct.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = lifetech_prjct/Info.plist;
+				INFOPLIST_FILE = lifetech_prjct/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,11 +462,12 @@
 		};
 		3BC10EF725C33115004F3A61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39CF861DC8AE8B498B1502DC /* Pods-lifetech_prjct.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = lifetech_prjct/Info.plist;
+				INFOPLIST_FILE = lifetech_prjct/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
